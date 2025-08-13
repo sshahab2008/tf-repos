@@ -1,0 +1,9 @@
+kubeconfig_path     = "~/.kube/config"
+kubeconfig_context  = null
+keda_namespace      = "keda"
+keda_chart_version  = null
+keda_values = {
+  metricsServer = {
+    enabled = true
+  }
+}
